@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c40a1910fc37d6b47b19e583b4257a56, type: 3}
+  m_Name: basic enemy
+  m_EditorClassIdentifier: 
+  enemyName: Basic Enemy
+  description: This is just test and basic enemy. You can sign here enemys move speed
+    and health amount.
+  speed: 4
+  health: 1
+  damage: 1
+  scoreValue: 10
+  possibleDrops:
+  - itemPrefab: {fileID: 6893501295600044328, guid: 4036303e3cf051b4cb3c935b14b31c98, type: 3}
+    dropChance: 20
+  - itemPrefab: {fileID: 2113812263894952717, guid: b32e589d59c5bd44c836068e5e9c2234, type: 3}
+    dropChance: 10
+  - itemPrefab: {fileID: 4494993564449345850, guid: 5dc0c3f039eb0c34785ceef4fc4e12f0, type: 3}
+    dropChance: 30
+  dropChance: 0.1
+  upgrades:
+  - additionalHealth: 0
+    additionalSpeed: 0
+    additionalDamage: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - additionalHealth: 2
+    additionalSpeed: 1
+    additionalDamage: 1
+    color: {r: 1, g: 0.8254717, b: 0.8254717, a: 1}
+  - additionalHealth: 3
+    additionalSpeed: 2
+    additionalDamage: 2
+    color: {r: 1, g: 0.6179246, b: 0.6179246, a: 1}
+  - additionalHealth: 4
+    additionalSpeed: 3
+    additionalDamage: 3
+    color: {r: 0.8301887, g: 0.39551443, b: 0.39551443, a: 1}
+  - additionalHealth: 5
+    additionalSpeed: 4
+    additionalDamage: 4
+    color: {r: 0.8018868, g: 0.21560162, b: 0.21560162, a: 1}
+  - additionalHealth: 6
+    additionalSpeed: 4
+    additionalDamage: 4
+    color: {r: 1, g: 0, b: 0, a: 1}
